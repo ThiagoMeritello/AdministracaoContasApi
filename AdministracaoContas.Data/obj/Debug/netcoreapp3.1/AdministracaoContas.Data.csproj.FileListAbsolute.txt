@@ -1,0 +1,12 @@
+D:\Projetos\AdministracaoContasApi\AdministracaoContas.Data\bin\Debug\netcoreapp3.1\AdministracaoContas.Data.deps.json
+D:\Projetos\AdministracaoContasApi\AdministracaoContas.Data\bin\Debug\netcoreapp3.1\AdministracaoContas.Data.dll
+D:\Projetos\AdministracaoContasApi\AdministracaoContas.Data\bin\Debug\netcoreapp3.1\AdministracaoContas.Data.pdb
+D:\Projetos\AdministracaoContasApi\AdministracaoContas.Data\bin\Debug\netcoreapp3.1\AdministracaoContas.Business.dll
+D:\Projetos\AdministracaoContasApi\AdministracaoContas.Data\bin\Debug\netcoreapp3.1\AdministracaoContas.Business.pdb
+D:\Projetos\AdministracaoContasApi\AdministracaoContas.Data\obj\Debug\netcoreapp3.1\AdministracaoContas.Data.csprojAssemblyReference.cache
+D:\Projetos\AdministracaoContasApi\AdministracaoContas.Data\obj\Debug\netcoreapp3.1\AdministracaoContas.Data.AssemblyInfoInputs.cache
+D:\Projetos\AdministracaoContasApi\AdministracaoContas.Data\obj\Debug\netcoreapp3.1\AdministracaoContas.Data.AssemblyInfo.cs
+D:\Projetos\AdministracaoContasApi\AdministracaoContas.Data\obj\Debug\netcoreapp3.1\AdministracaoContas.Data.csproj.CoreCompileInputs.cache
+D:\Projetos\AdministracaoContasApi\AdministracaoContas.Data\obj\Debug\netcoreapp3.1\AdministracaoContas.Data.csproj.CopyComplete
+D:\Projetos\AdministracaoContasApi\AdministracaoContas.Data\obj\Debug\netcoreapp3.1\AdministracaoContas.Data.dll
+D:\Projetos\AdministracaoContasApi\AdministracaoContas.Data\obj\Debug\netcoreapp3.1\AdministracaoContas.Data.pdb

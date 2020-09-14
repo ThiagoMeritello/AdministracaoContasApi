@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xCTKoUcnHGe+12/71BK1ykCU2jvpLVKq+/wWt1sL87pRdf5cK23mzv9P7wjr3LMKGONPdpoD8KZc37tUefu2Hw==",
+  "success": true,
+  "projectFilePath": "D:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Business\\AdministracaoContas.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thiag\\.nuget\\packages\\fluentvalidation\\9.2.0\\fluentvalidation.9.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
