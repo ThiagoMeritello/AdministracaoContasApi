@@ -4,14 +4,16 @@ using AdministracaoContas.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AdministracaoContas.Data.Migrations
 {
     [DbContext(typeof(MeuDbContext))]
-    partial class MeuDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210620234930_Initial")]
+    partial class Initial
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -49,39 +51,6 @@ namespace AdministracaoContas.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Despesas");
-                });
-
-            modelBuilder.Entity("AdministracaoContas.Business.Models.DespesaParcela", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("DataPagamento")
-                        .HasColumnType("datetime2");
-
-                    b.Property<Guid>("IdDespesa")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<int>("Parcela")
-                        .HasColumnType("int");
-
-                    b.Property<decimal>("Valor")
-                        .HasColumnType("decimal(9,2)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("IdDespesa");
-
-                    b.ToTable("DespesasParcela");
-                });
-
-            modelBuilder.Entity("AdministracaoContas.Business.Models.DespesaParcela", b =>
-                {
-                    b.HasOne("AdministracaoContas.Business.Models.Despesa", "Despesa")
-                        .WithMany("DespesaParcela")
-                        .HasForeignKey("IdDespesa")
-                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

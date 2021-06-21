@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace AdministracaoContas.Business.Models
 {
@@ -11,5 +12,6 @@ namespace AdministracaoContas.Business.Models
         public string FormaPagamento { get; set; }
         public int Parcela { get; set; }
         public DateTime DataPagamento { get; set; }
+        public IList<DespesaParcela> DespesaParcela { get; set; }
     }
 }

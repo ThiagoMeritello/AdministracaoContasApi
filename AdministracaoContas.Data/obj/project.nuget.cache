@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4Yid4ieSV5XZ3kCS9xThBYw3J4CVBiLhccnwiQHRdT+PTDWMRMOoPCcFUcfuk+lpSiDSxao7LzM9TMDi0esGhw==",
+  "dgSpecHash": "+1p2XciUzhzYpqilTQ0+ef9YnWO2ElmZhizRWQDeZZQwQ3fg3Tf6pBcDjzN8ILZZcnQEBiLgquXG2BxHRxUVyQ==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Data\\AdministracaoContas.Data.csproj",
+  "projectFilePath": "E:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Data\\AdministracaoContas.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thiag\\.nuget\\packages\\fluentvalidation\\9.2.0\\fluentvalidation.9.2.0.nupkg.sha512",
     "C:\\Users\\thiag\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

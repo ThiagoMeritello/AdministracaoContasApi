@@ -11,6 +11,7 @@ namespace AdministracaoContas.Data.Context
         public MeuDbContext(DbContextOptions options) : base(options) { }
 
         public DbSet<Despesa> Despesas { get; set; }
+        public DbSet<DespesaParcela> DespesaParcela { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

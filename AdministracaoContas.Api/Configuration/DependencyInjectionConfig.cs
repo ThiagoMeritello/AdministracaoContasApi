@@ -13,6 +13,7 @@ namespace AdministracaoContas.Api.Configuration
         {
             services.AddScoped<MeuDbContext>();
             services.AddScoped<IDespesaRepository, DespesaRepository>();
+            services.AddScoped<IDespesaParcelaRepository, DespesaParcelaRepository>();
 
             services.AddScoped<INotificador, Notificador>();
             services.AddScoped<IDespesaService, DespesaService>();

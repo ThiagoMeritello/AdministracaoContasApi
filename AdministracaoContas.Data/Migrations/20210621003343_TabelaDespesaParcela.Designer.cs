@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AdministracaoContas.Data.Migrations
 {
     [DbContext(typeof(MeuDbContext))]
-    [Migration("20200913230114_Initial")]
-    partial class Initial
+    [Migration("20210621003343_TabelaDespesaParcela")]
+    partial class TabelaDespesaParcela
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -51,6 +51,39 @@ namespace AdministracaoContas.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Despesas");
+                });
+
+            modelBuilder.Entity("AdministracaoContas.Business.Models.DespesaParcela", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("DataPagamento")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid>("IdDespesa")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Parcela")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Valor")
+                        .HasColumnType("decimal(9,2)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("IdDespesa");
+
+                    b.ToTable("DespesasParcela");
+                });
+
+            modelBuilder.Entity("AdministracaoContas.Business.Models.DespesaParcela", b =>
+                {
+                    b.HasOne("AdministracaoContas.Business.Models.Despesa", "Despesa")
+                        .WithMany("DespesaParcela")
+                        .HasForeignKey("IdDespesa")
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

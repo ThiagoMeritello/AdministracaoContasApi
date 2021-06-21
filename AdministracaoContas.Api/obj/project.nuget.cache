@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wMUV5TUSpDns2MA7Tho05NAXR2CSSf3otmEqC2XcufM01zAGVDczd+te12runtzr+f+o0tYVKa2QSPz8BedHAA==",
+  "dgSpecHash": "FFLXfnMLNz4cz13Hd+YZYk9BR/tWwc4pgAhWIQvbmyrDqiGOFvhTexvsp7l8UbbPxeR+Nyr9ao+7pVoqQn0IwA==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Api\\AdministracaoContas.Api.csproj",
+  "projectFilePath": "E:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Api\\AdministracaoContas.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thiag\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\thiag\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",

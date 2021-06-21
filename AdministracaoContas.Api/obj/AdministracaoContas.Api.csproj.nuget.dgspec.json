@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Api\\AdministracaoContas.Api.csproj": {}
+    "E:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Api\\AdministracaoContas.Api.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Api\\AdministracaoContas.Api.csproj": {
+    "E:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Api\\AdministracaoContas.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Api\\AdministracaoContas.Api.csproj",
+        "projectUniqueName": "E:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Api\\AdministracaoContas.Api.csproj",
         "projectName": "AdministracaoContas.Api",
-        "projectPath": "D:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Api\\AdministracaoContas.Api.csproj",
+        "projectPath": "E:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Api\\AdministracaoContas.Api.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Api\\obj\\",
+        "outputPath": "E:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -30,12 +32,13 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Business\\AdministracaoContas.Business.csproj": {
-                "projectPath": "D:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Business\\AdministracaoContas.Business.csproj"
+              "E:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Business\\AdministracaoContas.Business.csproj": {
+                "projectPath": "E:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Business\\AdministracaoContas.Business.csproj"
               },
-              "D:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Data\\AdministracaoContas.Data.csproj": {
-                "projectPath": "D:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Data\\AdministracaoContas.Data.csproj"
+              "E:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Data\\AdministracaoContas.Data.csproj": {
+                "projectPath": "E:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Data\\AdministracaoContas.Data.csproj"
               }
             }
           }
@@ -48,6 +51,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -94,24 +98,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Business\\AdministracaoContas.Business.csproj": {
+    "E:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Business\\AdministracaoContas.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Business\\AdministracaoContas.Business.csproj",
+        "projectUniqueName": "E:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Business\\AdministracaoContas.Business.csproj",
         "projectName": "AdministracaoContas.Business",
-        "projectPath": "D:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Business\\AdministracaoContas.Business.csproj",
+        "projectPath": "E:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Business\\AdministracaoContas.Business.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Business\\obj\\",
+        "outputPath": "E:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -124,6 +130,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -135,6 +142,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "FluentValidation": {
               "target": "Package",
@@ -156,24 +164,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Data\\AdministracaoContas.Data.csproj": {
+    "E:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Data\\AdministracaoContas.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Data\\AdministracaoContas.Data.csproj",
+        "projectUniqueName": "E:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Data\\AdministracaoContas.Data.csproj",
         "projectName": "AdministracaoContas.Data",
-        "projectPath": "D:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Data\\AdministracaoContas.Data.csproj",
+        "projectPath": "E:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Data\\AdministracaoContas.Data.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Data\\obj\\",
+        "outputPath": "E:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -186,9 +196,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Business\\AdministracaoContas.Business.csproj": {
-                "projectPath": "D:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Business\\AdministracaoContas.Business.csproj"
+              "E:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Business\\AdministracaoContas.Business.csproj": {
+                "projectPath": "E:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Business\\AdministracaoContas.Business.csproj"
               }
             }
           }
@@ -201,6 +212,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -230,7 +242,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
