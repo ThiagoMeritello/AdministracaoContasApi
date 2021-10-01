@@ -1,0 +1,15 @@
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Data\bin\Debug\net5.0\AdministracaoContas.Data.deps.json
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Data\bin\Debug\net5.0\AdministracaoContas.Data.dll
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Data\bin\Debug\net5.0\ref\AdministracaoContas.Data.dll
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Data\bin\Debug\net5.0\AdministracaoContas.Data.pdb
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Data\bin\Debug\net5.0\AdministracaoContas.Business.dll
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Data\bin\Debug\net5.0\AdministracaoContas.Business.pdb
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Data\obj\Debug\net5.0\AdministracaoContas.Data.csproj.AssemblyReference.cache
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Data\obj\Debug\net5.0\AdministracaoContas.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Data\obj\Debug\net5.0\AdministracaoContas.Data.AssemblyInfoInputs.cache
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Data\obj\Debug\net5.0\AdministracaoContas.Data.AssemblyInfo.cs
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Data\obj\Debug\net5.0\AdministracaoContas.Data.csproj.CoreCompileInputs.cache
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Data\obj\Debug\net5.0\AdministracaoContas.Data.csproj.CopyComplete
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Data\obj\Debug\net5.0\AdministracaoContas.Data.dll
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Data\obj\Debug\net5.0\ref\AdministracaoContas.Data.dll
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Data\obj\Debug\net5.0\AdministracaoContas.Data.pdb

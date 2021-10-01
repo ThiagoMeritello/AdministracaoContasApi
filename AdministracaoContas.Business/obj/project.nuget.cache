@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DT+a06amW7t7kknFfMEHYivh9Htr0nqJOqgHlgCr673DOqVwpAcr1K95wKEFMe4QOnH5SBf8TTdRpujqoSFWrw==",
+  "dgSpecHash": "O+4SATZI0rGhfEllFsFUwxp8KbQOROKf7Ono6RlwyyqmAVD2wCuspUVC0OoJk0OjJMdZJY3ttE+LIz+TODJx+w==",
   "success": true,
-  "projectFilePath": "E:\\Projetos\\AdministracaoContasApi\\AdministracaoContas.Business\\AdministracaoContas.Business.csproj",
+  "projectFilePath": "D:\\Projetos - Pessoal\\AdministracaoContasApi\\AdministracaoContas.Business\\AdministracaoContas.Business.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\thiag\\.nuget\\packages\\fluentvalidation\\9.2.0\\fluentvalidation.9.2.0.nupkg.sha512"
+    "C:\\Users\\thiag\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512"
   ],
   "logs": []
 }

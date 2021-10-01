@@ -15,3 +15,13 @@ E:\Projetos\AdministracaoContasApi\AdministracaoContas.Business\obj\Debug\netcor
 E:\Projetos\AdministracaoContasApi\AdministracaoContas.Business\obj\Debug\netcoreapp3.1\AdministracaoContas.Business.csproj.CoreCompileInputs.cache
 E:\Projetos\AdministracaoContasApi\AdministracaoContas.Business\obj\Debug\netcoreapp3.1\AdministracaoContas.Business.dll
 E:\Projetos\AdministracaoContasApi\AdministracaoContas.Business\obj\Debug\netcoreapp3.1\AdministracaoContas.Business.pdb
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Business\bin\Debug\netcoreapp3.1\AdministracaoContas.Business.deps.json
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Business\bin\Debug\netcoreapp3.1\AdministracaoContas.Business.dll
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Business\bin\Debug\netcoreapp3.1\AdministracaoContas.Business.pdb
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Business\obj\Debug\netcoreapp3.1\AdministracaoContas.Business.csproj.AssemblyReference.cache
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Business\obj\Debug\netcoreapp3.1\AdministracaoContas.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Business\obj\Debug\netcoreapp3.1\AdministracaoContas.Business.AssemblyInfoInputs.cache
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Business\obj\Debug\netcoreapp3.1\AdministracaoContas.Business.AssemblyInfo.cs
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Business\obj\Debug\netcoreapp3.1\AdministracaoContas.Business.csproj.CoreCompileInputs.cache
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Business\obj\Debug\netcoreapp3.1\AdministracaoContas.Business.dll
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Business\obj\Debug\netcoreapp3.1\AdministracaoContas.Business.pdb
