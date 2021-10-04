@@ -22,6 +22,11 @@ namespace AdministracaoContas.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Api Administração de Contas", Version = "v1" });
+            });
+
             services.AddControllers();
 
             services.AddDbContext<MeuDbContext>(options =>
@@ -52,6 +57,11 @@ namespace AdministracaoContas.Api
                 app.UseCors("Development");
                 app.UseDeveloperExceptionPage();
             }
+            app.UseSwagger();
+            app.UseSwaggerUI(opt =>
+            {
+                opt.SwaggerEndpoint("/swagger/v1/swagger.json", "Meu Swagger V1");
+            });
 
             app.UseHttpsRedirection();
 
