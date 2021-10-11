@@ -1,9 +1,6 @@
 ﻿using AdministracaoContas.Business.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace AdministracaoContas.Data.Mappings
 {
@@ -20,7 +17,11 @@ namespace AdministracaoContas.Data.Mappings
                 .HasColumnType("varchar(1000)");
 
             builder.Property(p => p.Valor)
-                .HasColumnType("decimal(9,2)"); 
+                .HasColumnType("decimal(9,2)");
+
+            builder.HasOne(p => p.FormaPagamento)
+                .WithOne(p => p.Despesa)
+                .HasForeignKey<Despesa>(p => p.CodigoFormaPagamento);
 
             builder.ToTable("Despesas");
         }

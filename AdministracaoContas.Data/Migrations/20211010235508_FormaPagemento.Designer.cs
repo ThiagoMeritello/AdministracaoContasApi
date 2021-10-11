@@ -4,14 +4,16 @@ using AdministracaoContas.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AdministracaoContas.Data.Migrations
 {
     [DbContext(typeof(MeuDbContext))]
-    partial class MeuDbContextModelSnapshot : ModelSnapshot
+    [Migration("20211010235508_FormaPagemento")]
+    partial class FormaPagemento
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -97,7 +99,7 @@ namespace AdministracaoContas.Data.Migrations
 
                     b.HasKey("Codigo");
 
-                    b.ToTable("FormaPagamento");
+                    b.ToTable("FormaPamento");
                 });
 
             modelBuilder.Entity("AdministracaoContas.Business.Models.Despesa", b =>

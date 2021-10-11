@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AdministracaoContas.Api.Controllers
 {
-    [Route("api/despesa")]
+    [Route("api/Despesa")]
     [ApiController]
     public class DespesaController : MainController
     {
@@ -28,12 +28,14 @@ namespace AdministracaoContas.Api.Controllers
         }
 
         [HttpGet]
+        [Route("ObterTodos")]
         public async Task<IEnumerable<DespesaViewModel>> ObterTodos()
         {
             return _mapper.Map<IEnumerable<DespesaViewModel>>(await _despesaRepository.ObterTodos());
         }
 
         [HttpGet("{id:guid}")]
+        [Route("ObterPorId")]
         public async Task<ActionResult<DespesaViewModel>> ObterPorId(Guid id)
         {
             var despesaViewModel = await ObterDespesa(id);
@@ -44,6 +46,7 @@ namespace AdministracaoContas.Api.Controllers
         }
 
         [HttpPost]
+        [Route("Adicionar")]
         public async Task<ActionResult<DespesaViewModel>> Adicionar(DespesaViewModel despesaViewModel)
         {
             if (!ModelState.IsValid) return CustomResponse(ModelState);
@@ -54,6 +57,7 @@ namespace AdministracaoContas.Api.Controllers
         }
 
         [HttpPut("{id:guid}")]
+        [Route("Atualizar")]
         public async Task<ActionResult<DespesaViewModel>> Atualizar(Guid id, DespesaViewModel despesaViewModel)
         {
             if(id != despesaViewModel.Id)
@@ -79,6 +83,7 @@ namespace AdministracaoContas.Api.Controllers
         }
 
         [HttpDelete("{id:guid}")]
+        [Route("Excluir")]
         public async Task<ActionResult<DespesaViewModel>> Excluir(Guid id)
         {
             var despesa = await ObterDespesa(id);
@@ -94,7 +99,5 @@ namespace AdministracaoContas.Api.Controllers
         {
             return _mapper.Map<DespesaViewModel>(await _despesaRepository.ObterPorId(id));
         }
-
-
     }
 }

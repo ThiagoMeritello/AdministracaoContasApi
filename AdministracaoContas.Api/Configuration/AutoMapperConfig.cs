@@ -9,6 +9,8 @@ namespace AdministracaoContas.Api.Configuration
         public AutoMapperConfig()
         {
             CreateMap<Despesa, DespesaViewModel>().ReverseMap();
+            CreateMap<DespesaParcela, DespesaParcelaViewModel>().ReverseMap();
+            CreateMap<FormaPagamento, FormaPagamentoViewModel>().ReverseMap();
         }
     }
 }

@@ -24,5 +24,10 @@
     <ProjectReference Include="..\AdministracaoContas.Data\AdministracaoContas.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DTO\Result\" />
+    <Folder Include="DTO\Request\" />
+  </ItemGroup>
+
 
 </Project>

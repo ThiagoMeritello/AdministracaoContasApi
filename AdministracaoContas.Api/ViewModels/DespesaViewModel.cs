@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace AdministracaoContas.Api.ViewModels
@@ -21,11 +22,11 @@ namespace AdministracaoContas.Api.ViewModels
         public Decimal Valor { get; set; }
 
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
-        public string FormaPagamento { get; set; }
-
-        [Required(ErrorMessage = "O campo {0} é obrigatório")]
-        public int Parcela { get; set; }
-
-        public DateTime DataPagamento { get; set; }
+        public int CodigoFormaPagamento { get; set; }
+        public int? Parcela { get; set; }
+        public DateTime? DataPagamento { get; set; }
+        public int? DiaPagamento { get; set; }
+        public IList<DespesaParcelaViewModel> DespesaParcela { get; set; }
+        public FormaPagamentoViewModel FormaPagamento { get; set; }
     }
 }

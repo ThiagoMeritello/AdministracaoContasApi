@@ -21,8 +21,6 @@ namespace AdministracaoContas.Business.Models.Validations
             RuleFor(c => c.FormaPagamento)
                     .NotEmpty().WithMessage("O Campo {PropertyName} precisa ser fornecido");
 
-            RuleFor(c => c.Parcela)
-                    .NotEmpty().WithMessage("O Campo {PropertyName} precisa ser fornecido");
         }
     }
 }
