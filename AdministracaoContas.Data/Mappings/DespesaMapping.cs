@@ -23,6 +23,8 @@ namespace AdministracaoContas.Data.Mappings
                 .WithOne(p => p.Despesa)
                 .HasForeignKey<Despesa>(p => p.CodigoFormaPagamento);
 
+            builder.Ignore(p => p.ValorParcelaFinanciamento);
+
             builder.ToTable("Despesas");
         }
     }

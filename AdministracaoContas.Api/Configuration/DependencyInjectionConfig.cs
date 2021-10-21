@@ -12,12 +12,17 @@ namespace AdministracaoContas.Api.Configuration
         public static IServiceCollection ResolveDependencies(this IServiceCollection services)
         {
             services.AddScoped<MeuDbContext>();
+            services.AddScoped<INotificador, Notificador>();
+
+            //Service
+            services.AddScoped<IDespesaService, DespesaService>();
+            services.AddScoped<IFormaPagamentoService, FormaPagamentoService>();           
+
+            //Repository
             services.AddScoped<IDespesaRepository, DespesaRepository>();
             services.AddScoped<IDespesaParcelaRepository, DespesaParcelaRepository>();
-
-            services.AddScoped<INotificador, Notificador>();
-            services.AddScoped<IDespesaService, DespesaService>();
-
+            services.AddScoped<IFormaPagamentoRepository, FormaPagamentoRepository>();
+            
             return services;
         }
     }

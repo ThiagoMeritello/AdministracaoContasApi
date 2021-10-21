@@ -26,7 +26,6 @@
 
   <ItemGroup>
     <Folder Include="DTO\Result\" />
-    <Folder Include="DTO\Request\" />
   </ItemGroup>
 
 

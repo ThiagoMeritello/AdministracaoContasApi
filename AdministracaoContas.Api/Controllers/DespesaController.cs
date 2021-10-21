@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AdministracaoContas.Api.Controllers
 {
-    [Route("api/Despesa")]
+    [Route("api/[controller]")]
     [ApiController]
     public class DespesaController : MainController
     {
@@ -27,19 +27,41 @@ namespace AdministracaoContas.Api.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet]
         [Route("ObterTodos")]
+        [HttpGet]
         public async Task<IEnumerable<DespesaViewModel>> ObterTodos()
         {
             return _mapper.Map<IEnumerable<DespesaViewModel>>(await _despesaRepository.ObterTodos());
         }
 
-        [HttpGet("{id:guid}")]
-        [Route("ObterPorId")]
+        [HttpGet]
+        [Route("ObterPorId/{id:guid}")]
         public async Task<ActionResult<DespesaViewModel>> ObterPorId(Guid id)
         {
             var despesaViewModel = await ObterDespesa(id);
 
+            if (despesaViewModel == null) return NotFound();
+
+            return despesaViewModel;
+        }
+
+        [HttpGet]
+        [Route("ObterPorIdDespesaParcelada/{id:guid}")]
+        public async Task<ActionResult<DespesaViewModel>> ObterPorIdDespesaParcelada(Guid id)
+        {
+            var despesaViewModel = _mapper.Map<DespesaViewModel>(await _despesaRepository.ObterPorIdDespesaParcelada(id));
+            
+            if (despesaViewModel == null) return NotFound();
+
+            return despesaViewModel;
+        }
+
+        [HttpGet]
+        [Route("ObterPorDespesasFiltro/{mes:int}/{ano:int}")]
+        public async Task<ActionResult<IList<DespesaViewModel>>> ObterPorDespesasFiltro(int mes, int ano, int? codigoFormaPagamento)
+        {
+            var despesaViewModel = _mapper.Map<List<DespesaViewModel>>(await _despesaRepository.ObterPorDespesasFiltro(mes, ano, codigoFormaPagamento));
+            
             if (despesaViewModel == null) return NotFound();
 
             return despesaViewModel;
@@ -56,11 +78,11 @@ namespace AdministracaoContas.Api.Controllers
             return CustomResponse(despesaViewModel);
         }
 
-        [HttpPut("{id:guid}")]
-        [Route("Atualizar")]
+        [HttpPut]
+        [Route("Atualizar/{id:guid}")]
         public async Task<ActionResult<DespesaViewModel>> Atualizar(Guid id, DespesaViewModel despesaViewModel)
         {
-            if(id != despesaViewModel.Id)
+            if (id != despesaViewModel.Id)
             {
                 NotificarErro("Os ids informados não são iguais");
                 return CustomResponse();
@@ -82,12 +104,12 @@ namespace AdministracaoContas.Api.Controllers
             return CustomResponse(despesaViewModel);
         }
 
-        [HttpDelete("{id:guid}")]
-        [Route("Excluir")]
+        [HttpDelete]
+        [Route("Excluir/{id:guid}")]
         public async Task<ActionResult<DespesaViewModel>> Excluir(Guid id)
         {
             var despesa = await ObterDespesa(id);
-            
+
             if (despesa == null) return NotFound();
 
             await _despesaService.Remover(id);

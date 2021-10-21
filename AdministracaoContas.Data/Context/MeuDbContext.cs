@@ -13,6 +13,7 @@ namespace AdministracaoContas.Data.Context
         public DbSet<Despesa> dbDespesas { get; set; }
         public DbSet<DespesaParcela> dbDespesaParcela { get; set; }
         public DbSet<FormaPagamento> dbFormaPagamento { get; set; }
+        public DbSet<DespesaPaga> dbDespesaPaga { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

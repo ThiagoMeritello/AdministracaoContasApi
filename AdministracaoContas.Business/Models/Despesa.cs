@@ -15,5 +15,7 @@ namespace AdministracaoContas.Business.Models
         public int? DiaPagamento { get; set; }
         public IList<DespesaParcela> DespesaParcela { get; set; }
         public FormaPagamento FormaPagamento { get; set; }
+        public DespesaPaga DespesaPaga { get; set; }
+        public decimal? ValorParcelaFinanciamento { get; set; }
     }
 }

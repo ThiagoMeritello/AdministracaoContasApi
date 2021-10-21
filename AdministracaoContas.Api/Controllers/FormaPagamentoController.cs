@@ -1,4 +1,5 @@
-﻿using AdministracaoContas.Api.ViewModels;
+﻿using System;
+using AdministracaoContas.Api.ViewModels;
 using AdministracaoContas.Business.Interfaces;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AdministracaoContas.Api.Controllers
 {
-    [Route("api/FormaPagamento")]
+    [Route("api/[controller]")]
     [ApiController]
     public class FormaPagamentoController : MainController
     {
@@ -18,10 +19,11 @@ namespace AdministracaoContas.Api.Controllers
         public FormaPagamentoController(INotificador notificador,
              IFormaPagamentoService formaPagamentoService,
              IFormaPagamentoRepository formaPagamentoRepository,
-             IMapper _mapper) : base(notificador)
+             IMapper mapper) : base(notificador)
         {
             _formaPagamentoService = formaPagamentoService;
             _formaPagamentoRepository = formaPagamentoRepository;
+            _mapper = mapper;
         }
 
         [HttpGet]

@@ -24,7 +24,11 @@ D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\bin\Debug\n
 D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\bin\Debug\net5.0\Microsoft.OpenApi.dll
 D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
 D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
@@ -51,6 +55,7 @@ D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\obj\Debug\n
 D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\obj\Debug\net5.0\AdministracaoContas.Api.AssemblyInfoInputs.cache
 D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\obj\Debug\net5.0\AdministracaoContas.Api.AssemblyInfo.cs
 D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\obj\Debug\net5.0\AdministracaoContas.Api.csproj.CoreCompileInputs.cache
+D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\obj\Debug\net5.0\AdministracaoContas.Api.MvcApplicationPartsAssemblyInfo.cs
 D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\obj\Debug\net5.0\AdministracaoContas.Api.MvcApplicationPartsAssemblyInfo.cache
 D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\obj\Debug\net5.0\staticwebassets\AdministracaoContas.Api.StaticWebAssets.Manifest.cache
 D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\obj\Debug\net5.0\staticwebassets\AdministracaoContas.Api.StaticWebAssets.xml
@@ -61,8 +66,3 @@ D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\obj\Debug\n
 D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\obj\Debug\net5.0\ref\AdministracaoContas.Api.dll
 D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\obj\Debug\net5.0\AdministracaoContas.Api.pdb
 D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\obj\Debug\net5.0\AdministracaoContas.Api.genruntimeconfig.cache
-D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\bin\Debug\net5.0\Microsoft.OpenApi.dll
-D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\Projetos - Pessoal\AdministracaoContasApi\AdministracaoContas.Api\obj\Debug\net5.0\AdministracaoContas.Api.MvcApplicationPartsAssemblyInfo.cs

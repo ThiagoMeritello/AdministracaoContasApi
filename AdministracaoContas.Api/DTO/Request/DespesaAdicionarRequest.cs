@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace AdministracaoContas.Api.ViewModels
+namespace AdministracaoContas.Api.DTO.Request
 {
-    public class DespesaViewModel
+    public class DespesaAdicionarRequest
     {
-        [Key]
-        public Guid? Id { get; set; }
-
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         public DateTime DataCompra { get; set; }
 
@@ -26,8 +25,6 @@ namespace AdministracaoContas.Api.ViewModels
         public int? Parcela { get; set; }
         public DateTime? DataPagamento { get; set; }
         public int? DiaPagamento { get; set; }
-        public decimal? ValorParcelaFinanciamento { get; set; }
-        public IList<DespesaParcelaViewModel> DespesaParcela { get; set; }
-        public FormaPagamentoViewModel FormaPagamento { get; set; }
+        public int? ValorParcelaFinanciamento { get; set; }
     }
 }
